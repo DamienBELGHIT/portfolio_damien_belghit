@@ -1,0 +1,28 @@
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 340px);
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 56px 0px;
+  position: relative;
+  border-radius: 25px;
+  grid-gap: 50px;
+  margin: 10px;
+}
+
+.media img {
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 4/3;
+  position: relative;
+  border-radius: 15px;
+}
+
+.media h3 {
+  font-size: 36px;
+  margin: 5px 0;
+}
+
+.media p {
+  font-size: 24px;
+}

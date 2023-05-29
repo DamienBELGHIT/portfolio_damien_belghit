@@ -1,0 +1,65 @@
+#main-section {
+  margin-top: 100px;
+  padding: 0px 100px;
+}
+
+#main-section h1 {
+  color: #c5c5c5;
+  font-size: 78px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+#main-section h1 .highlight {
+  font-weight: bold;
+  font-size: 108px;
+  margin-left: 100px;
+}
+
+#main-section h2 {
+  color: #dcc19e;
+  font-size: 64px;
+}
+
+.bio {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bio section {
+  width: 60%;
+}
+
+.bio p {
+  font-size: 32px;
+}
+
+.profile-img {
+  width: 30%;
+  height: 600px;
+}
+
+.profile-img img {
+  max-width: 388px;
+}
+
+.profile-img .bg-sphere {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  position: relative;
+  z-index: -1;
+}
+
+.profile-img .bg-sphere.big {
+  width: 501px;
+  background-color: #827264;
+  right: 20px;
+  top: -100%;
+}
+
+.profile-img .bg-sphere.small {
+  width: 391px;
+  background-color: #c9c0c0;
+  top: -150%;
+  right: 100px;
+}

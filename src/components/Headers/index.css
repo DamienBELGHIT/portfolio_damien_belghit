@@ -1,0 +1,27 @@
+.headers {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.headers .sections {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.headers .bg-sphere {
+  width: 700px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #5a4e43;
+  z-index: -1;
+  right: -100px;
+  top: -150px;
+}
