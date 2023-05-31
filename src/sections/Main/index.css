@@ -1,6 +1,7 @@
 #main-section {
   margin-top: 100px;
   padding: 0px 100px;
+  overflow: hidden;
 }
 
 #main-section h1 {
@@ -41,6 +42,9 @@
 
 .profile-img img {
   max-width: 388px;
+  opacity: 0;
+  animation: appear 0.7s 1s linear alternate;
+  animation-fill-mode: forwards;
 }
 
 .profile-img .bg-sphere {
@@ -55,6 +59,8 @@
   background-color: #827264;
   right: 20px;
   top: -100%;
+  animation: bg-sphere-big-appear 1.5s 0s linear alternate;
+  animation-fill-mode: forwards;
 }
 
 .profile-img .bg-sphere.small {
@@ -62,4 +68,51 @@
   background-color: #c9c0c0;
   top: -150%;
   right: 100px;
+  animation: bg-sphere-small-appear 1.5s 0s linear alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bg-sphere-big-appear {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    width: 200px;
+  }
+  50% {
+    animation-timing-function: ease;
+    opacity: 1;
+    width: 540px;
+  }
+  100% {
+    animation-timing-function: ease;
+    width: 501px;
+  }
+}
+
+@keyframes bg-sphere-small-appear {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    width: 200px;
+  }
+  70% {
+    animation-timing-function: ease;
+    opacity: 1;
+    width: 420px;
+  }
+  100% {
+    animation-timing-function: ease;
+    width: 391px;
+  }
+}
+
+@keyframes appear {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  100% {
+    animation-timing-function: ease;
+    opacity: 1;
+  }
 }

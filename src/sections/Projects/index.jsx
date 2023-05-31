@@ -31,7 +31,11 @@ function Projects() {
           Illustrations
         </li>
       </ul>
-      <MediaGrid page={projectType} medias={mediaList} />
+      <MediaGrid
+        medias={
+          mediaList[mediaList.findIndex((e) => e.type === projectType)].medias
+        }
+      />
     </div>
   )
 }

@@ -1,0 +1,25 @@
+.icon-list {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-list .icon {
+  margin: 10px;
+}
+
+.icon img {
+  width: 64px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  filter: grayscale(60%);
+  transition: width 0.2s ease-in-out;
+}
+
+.icon img:hover {
+  filter: grayscale(0%);
+  width: 96px;
+}
+
+.icon img.reverse-color {
+  filter: invert(1);
+}

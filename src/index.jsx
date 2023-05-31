@@ -1,16 +1,12 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import Headers from "./components/Headers"
-import Main from "./sections/Main"
-import Projects from "./sections/Projects"
+import Navigation from "./components/Navigation"
+import Socials from "./components/Socials"
 import "./index.css"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Headers />
-    <main>
-      <Main />
-      <Projects />
-    </main>
+    <Navigation />
+    <Socials />
   </React.StrictMode>
 )

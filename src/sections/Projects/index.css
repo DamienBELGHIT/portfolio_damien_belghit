@@ -8,6 +8,11 @@
   margin: 0 50px;
   font-size: 32px;
   cursor: pointer;
+  transition: font-size 0.2s ease-in-out;
+}
+
+.project-type-select li:hover {
+  font-size: 48px;
 }
 
 .project-type-select li.selected {

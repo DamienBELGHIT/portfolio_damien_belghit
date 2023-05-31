@@ -1,0 +1,86 @@
+.headers {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.headers .sections {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.headers .nav-btn {
+  cursor: pointer;
+  transition: font-size 0.2s ease-in-out;
+}
+
+.headers .nav-btn:hover {
+  font-size: 32px;
+}
+
+.headers .bg-sphere {
+  width: 1400px;
+  height: 280px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #5a4e43;
+  z-index: -1;
+  right: -700px;
+  top: -200px;
+  animation: bg-sphere-header-appear 1.5s 0s linear alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bg-sphere-header-appear {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    width: 0px;
+  }
+  70% {
+    animation-timing-function: ease;
+    opacity: 1;
+    width: 1500px;
+  }
+  100% {
+    animation-timing-function: ease;
+    width: 1400px;
+  }
+}
+
+.headers .bg-sphere-home {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #5a4e43;
+  z-index: -1;
+  left: -100px;
+  top: -120px;
+  animation: bg-sphere-home-appear 1.5s 0s linear alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bg-sphere-home-appear {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    width: 0px;
+  }
+  70% {
+    animation-timing-function: ease;
+    opacity: 1;
+    width: 220px;
+  }
+  100% {
+    animation-timing-function: ease;
+    width: 180px;
+  }
+}

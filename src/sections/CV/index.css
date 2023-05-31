@@ -1,0 +1,81 @@
+.cv-title {
+  color: #dcc19e;
+  font-weight: bold;
+  font-size: 48px;
+  margin-left: 40px;
+}
+
+.technoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  background-color: #352f2f63;
+  margin: 10px auto;
+  height: 200px;
+}
+
+.techno-type-title {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.formation-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.formation {
+  text-align: center;
+  font-size: 28px;
+  width: 95%;
+}
+
+.formation h4 {
+  text-align: left;
+  font-size: 32px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.formation h4::before {
+  content: "";
+  display: block;
+  min-width: 32px;
+  min-height: 32px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+
+.formation p {
+  margin: 10px;
+  font-size: 24px;
+}
+
+.button-brown {
+  background-color: #c9c0c0;
+  color: #5a4e43;
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 20px 40px;
+  margin: 40px 0;
+  transition: font-size 0.2s ease-in-out;
+}
+
+.button-brown:hover {
+  font-size: 48px;
+  background-color: white;
+  color: #232323;
+}
+
+.cv-content {
+  max-width: 1200px;
+  margin: auto;
+}

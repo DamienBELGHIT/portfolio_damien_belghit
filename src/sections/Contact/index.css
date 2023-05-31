@@ -1,0 +1,27 @@
+#contact-section {
+  background-color: #322c27;
+  height: 100vh;
+  padding: 100px 0;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+.contact-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 48px;
+  height: 100%;
+  max-height: 400px;
+  margin-top: 20vh;
+}
+
+.contact-infos svg {
+  margin-right: 10px;
+}
+
+.contact-infos a {
+  display: flex;
+  align-items: center;
+}

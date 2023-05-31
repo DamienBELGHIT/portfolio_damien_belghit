@@ -24,3 +24,17 @@ ul {
   list-style: none;
   padding: 0;
 }
+
+.section-title::before {
+  content: "";
+  display: block;
+
+  width: 75%;
+  aspect-ratio: 2/1;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  background-color: #5a4e43;
+  z-index: -1;
+  transform: translate(-50%, -100px);
+}

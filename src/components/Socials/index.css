@@ -1,0 +1,56 @@
+.socials {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+.socials ul {
+  position: relative;
+  z-index: 2;
+}
+
+.socials-icon {
+  font-size: 48px;
+}
+
+.socials-icon svg {
+  color: grey;
+  transition: font-size 0.2s ease-in-out;
+}
+
+.socials-icon svg:hover {
+  color: white;
+  font-size: 64px;
+}
+
+.socials .bg-sphere {
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+
+  position: fixed;
+  background-color: #5a4e43;
+  z-index: 1;
+  bottom: -20px;
+  left: -170px;
+  opacity: 60%;
+  animation: bg-sphere-nav-appear 1.5s 0s linear alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bg-sphere-nav-appear {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    width: 0px;
+  }
+  70% {
+    animation-timing-function: ease;
+    opacity: 60%;
+    width: 300px;
+  }
+  100% {
+    animation-timing-function: ease;
+    width: 250px;
+  }
+}
