@@ -18,13 +18,13 @@ const medias = [
         title: "SportSee",
         description: "Tableau analytics sportif en React + Recharts",
         img: "/src/assets/img/SiteSportSee.PNG",
-        link: "https://damienbelghit.github.io/SportSee/user/18",
+        link: "https://github.com/DamienBELGHIT/SportSee",
       },
       {
         title: "Fisheye",
         description: "Site de photographes axé accessibilité",
         img: "/src/assets/img/SiteFisheye.PNG",
-        link: "https://damienbelghit.github.io/Fisheye/",
+        link: "https://github.com/DamienBELGHIT/Fisheye",
       },
       {
         title: "Kasa",
