@@ -1,6 +1,7 @@
 import IconList from "../../components/IconList"
 import "./index.css"
 import technos from "../../assets/data/technos"
+import cvFile from "../../assets/files/CV_BELGHIT_Damien.pdf"
 
 function CV() {
   return (
@@ -43,10 +44,7 @@ function CV() {
             <h4>Baccalauréat SSVT</h4>
             <p>2018</p>
           </section>
-          <a
-            className="button-brown"
-            href="/src/assets/files/CV_BELGHIT_Damien.pdf"
-          >
+          <a className="button-brown" href={cvFile}>
             Voir CV Complet
           </a>
         </div>
