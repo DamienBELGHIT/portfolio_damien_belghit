@@ -8,6 +8,7 @@
   top: 0;
   width: 100%;
   z-index: 10;
+  pointer-events: none;
 }
 
 .headers .sections {
@@ -19,6 +20,13 @@
 .headers .nav-btn {
   cursor: pointer;
   transition: font-size 0.2s ease-in-out;
+  pointer-events: all;
+}
+
+.nav-btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .headers .nav-btn:hover {
@@ -68,6 +76,10 @@
   animation-fill-mode: forwards;
 }
 
+.burger-menu {
+  display: none;
+}
+
 @keyframes bg-sphere-home-appear {
   0% {
     animation-timing-function: ease-in;
@@ -82,5 +94,53 @@
   100% {
     animation-timing-function: ease;
     width: 180px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .burger-menu {
+    display: block;
+    position: fixed;
+    right: 10px;
+    font-size: 32px;
+    pointer-events: all;
+  }
+
+  .headers {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .nav-btn {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .nav-btns {
+    flex-direction: column;
+  }
+
+  .headers .sections {
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+
+  .headers .bg-sphere {
+    display: none;
+  }
+
+  .headers .bg-sphere-home {
+    left: auto;
+    right: -80px;
+  }
+
+  .headers .bg-sphere-home.extended {
+    width: 800px !important;
+    height: 350px;
+  }
+
+  .mobile-hidden {
+    display: none;
   }
 }

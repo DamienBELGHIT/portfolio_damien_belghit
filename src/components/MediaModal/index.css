@@ -24,14 +24,14 @@
 
 .arrow-btn,
 .close-modal {
-  background: #c9c0c0;
-  color: #232323;
-  border-radius: 50px;
+  background-color: transparent;
+  color: #c9c0c0;
   border: none;
   cursor: pointer;
   width: 64px;
   height: 64px;
   line-height: 64px;
+  font-weight: bold;
 }
 
 .close-modal {
@@ -44,8 +44,6 @@
 
 .arrow-btn {
   font-size: 64px;
-  font-weight: bold;
-  cursor: pointer;
 }
 
 #grey-bg {
@@ -57,4 +55,13 @@
   background: black;
   opacity: 0.5;
   z-index: 99;
+}
+
+@media only screen and (max-width: 650px) {
+  .modal-content img {
+    margin: 0;
+  }
+  .media-modal {
+    padding: 0;
+  }
 }

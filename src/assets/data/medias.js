@@ -93,12 +93,13 @@ const medias = [
     medias: [
       {
         title: "Vectoriel",
-        img: "/src/assets/img/Sui.png",
+        img: "/src/assets/img/VectorialThumbnail.PNG",
         list: [
           "/src/assets/img/Sui.png",
           "/src/assets/img/Sloth.jpg",
           "/src/assets/img/Chibi.png",
           "/src/assets/img/TeteDessin.png",
+          "/src/assets/img/Reinald.png",
         ],
       },
       {
@@ -113,7 +114,7 @@ const medias = [
       },
       {
         title: "Pixel Art",
-        img: "/src/assets/img/Race.png",
+        img: "/src/assets/img/PixelArtThumbnail.PNG",
         list: [
           "/src/assets/img/Race.png",
           "/src/assets/img/Dizzy.png",

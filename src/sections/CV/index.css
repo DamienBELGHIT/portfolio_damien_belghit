@@ -12,7 +12,6 @@
   width: 80%;
   background-color: #352f2f63;
   margin: 10px auto;
-  height: 200px;
 }
 
 .techno-type-title {
@@ -78,4 +77,13 @@
 .cv-content {
   max-width: 1200px;
   margin: auto;
+}
+
+@media only screen and (max-width: 650px) {
+  .formation h4 {
+    font-size: 24px;
+  }
+  .formation p {
+    font-size: 18px;
+  }
 }

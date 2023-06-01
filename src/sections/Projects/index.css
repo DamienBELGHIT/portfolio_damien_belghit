@@ -19,3 +19,13 @@
   font-weight: bold;
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 650px) {
+  .project-type-select li {
+    font-size: 18px;
+    margin: 0 15px;
+  }
+  .project-type-select li:hover {
+    font-size: 18px;
+  }
+}

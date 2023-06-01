@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { FaChevronRight, FaChevronLeft } from "react-icons/fa"
 import "./index.css"
 
 function MediaModal({ visibility, setVisibility, medias }) {
@@ -13,7 +14,7 @@ function MediaModal({ visibility, setVisibility, medias }) {
     setPage(0)
     visibility
       ? (document.body.style.overflow = "hidden")
-      : (document.body.style.overflow = "scroll")
+      : (document.body.style.overflow = "auto")
   }, [visibility])
 
   useEffect(() => {
@@ -36,11 +37,11 @@ function MediaModal({ visibility, setVisibility, medias }) {
       <div className="media-modal">
         <div className="modal-content">
           <button className="arrow-btn" onClick={previousPage}>
-            &#60;
+            <FaChevronLeft />
           </button>
           <img src={medias[page]} alt="MediaModal" />
           <button className="arrow-btn" onClick={nextPage}>
-            &#62;
+            <FaChevronRight />
           </button>
         </div>
       </div>

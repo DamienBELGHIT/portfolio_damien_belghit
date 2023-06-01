@@ -4,15 +4,17 @@ import CV from "../../sections/CV"
 import Contact from "../../sections/Contact"
 import LineSeparator from "../../components/LineSeparator"
 import "./index.css"
-import { FaHome } from "react-icons/fa"
-import { useRef } from "react"
+import { FaHome, FaBars } from "react-icons/fa"
+import { useRef, useState } from "react"
 
 function Navigation() {
   const projectsSection = useRef(null)
   const cvSection = useRef(null)
   const contactSection = useRef(null)
+  const [navVisible, setNavVisible] = useState(true)
 
   const scrollToRef = (ref) => {
+    setNavVisible(false)
     window.scrollTo({
       top: ref.current.offsetTop,
       behavior: "smooth",
@@ -23,28 +25,42 @@ function Navigation() {
     <div>
       <header className="headers">
         <div className="bg-sphere"></div>
-        <div className="bg-sphere-home"></div>
         <div
-          className="nav-btn"
-          onClick={() => {
-            window.scrollTo({
-              top: 0,
-              behavior: "smooth",
-            })
-          }}
-        >
-          <FaHome />
+          className={"bg-sphere-home" + (navVisible ? " extended" : "")}
+        ></div>
+        <div className="burger-menu" onClick={() => setNavVisible(!navVisible)}>
+          {navVisible ? "X" : <FaBars />}
         </div>
+        <div className={"nav-btns" + (navVisible ? "" : " mobile-hidden")}>
+          <div
+            className="nav-btn"
+            onClick={() => {
+              setNavVisible(false)
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+              })
+            }}
+          >
+            <FaHome />
+          </div>
 
-        <div className="sections">
-          <div className="nav-btn" onClick={() => scrollToRef(projectsSection)}>
-            Mes Projets
-          </div>
-          <div className="nav-btn" onClick={() => scrollToRef(cvSection)}>
-            Mon CV
-          </div>
-          <div className="nav-btn" onClick={() => scrollToRef(contactSection)}>
-            Contactez-moi
+          <div className="sections">
+            <div
+              className="nav-btn"
+              onClick={() => scrollToRef(projectsSection)}
+            >
+              Mes Projets
+            </div>
+            <div className="nav-btn" onClick={() => scrollToRef(cvSection)}>
+              Mon CV
+            </div>
+            <div
+              className="nav-btn"
+              onClick={() => scrollToRef(contactSection)}
+            >
+              Contactez-moi
+            </div>
           </div>
         </div>
       </header>

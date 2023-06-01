@@ -54,3 +54,34 @@
     width: 250px;
   }
 }
+
+@media only screen and (max-width: 650px) {
+  .socials-icon svg {
+    color: white;
+    font-size: 36px;
+  }
+  .socials-icon svg:hover {
+    font-size: 36px;
+  }
+  .socials .bg-sphere {
+    width: 230px;
+    bottom: -30px;
+  }
+
+  @keyframes bg-sphere-nav-appear {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 0;
+      width: 0px;
+    }
+    70% {
+      animation-timing-function: ease;
+      opacity: 60%;
+      width: 300px;
+    }
+    100% {
+      animation-timing-function: ease;
+      width: 230px;
+    }
+  }
+}
