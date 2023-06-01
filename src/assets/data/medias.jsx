@@ -1,28 +1,3 @@
-import sitePortfolio from "/src/assets/img/SitePortfolio.png"
-import sitePetitsPlats from "/src/assets/img/SitePetitsPlats.png"
-import siteFisheye from "/src/assets/img/SiteFisheye.png"
-import siteSportSee from "/src/assets/img/SiteSportSee.png"
-import siteDataTable from "/src/assets/img/SiteDataTable.png"
-import siteOhMyFood from "/src/assets/img/SiteOhMyFood.png"
-
-import tablette1 from "/src/assets/img/CutHair.png"
-import tablette2 from "/src/assets/img/Holga.png"
-
-import blender1 from "/src/assets/img/Bottaro.png"
-import blender2 from "/src/assets/img/Donut.png"
-
-import vectorialThumbnail from "/src/assets/img/VectorialThumbnail.png"
-import vectorial1 from "/src/assets/img/Sui.png"
-import vectorial2 from "/src/assets/img/Sloth.jpg"
-import vectorial3 from "/src/assets/img/TeteDessin.png"
-import vectorial4 from "/src/assets/img/Reinald.png"
-import vectorial5 from "/src/assets/img/Chibi.png"
-
-import pixelArtThumbnail from "/src/assets/img/PixelArtThumbnail.png"
-import pixelArt1 from "/src/assets/img/Race.png"
-import pixelArt2 from "/src/assets/img/Dizzy.png"
-import pixelArt3 from "/src/assets/img/Artificial.png"
-
 const medias = [
   {
     type: "Sites",
@@ -30,44 +5,44 @@ const medias = [
       {
         title: "Portfolio",
         description: "Mon site portfolio en React",
-        img: sitePortfolio,
+        img: "https://i.postimg.cc/65CpwQgz/Site-Portfolio.png",
         link: "https://github.com/DamienBELGHIT/portfolio_damien_belghit",
       },
       {
         title: "Les Petits Plats",
         description: "Site de recherche de recettes en JS pur",
-        img: sitePetitsPlats,
+        img: "https://i.postimg.cc/zDbft7ks/Site-Petits-Plats.png",
         link: "https://damienbelghit.github.io/LesPetitsPlats-Projet5/",
       },
       {
         title: "SportSee",
         description: "Tableau analytics sportif en React + Recharts",
-        img: siteSportSee,
+        img: "https://i.postimg.cc/CxYLKgV0/Site-Sport-See.png",
         link: "https://github.com/DamienBELGHIT/SportSee",
       },
       {
         title: "Fisheye",
         description: "Site de photographes axé accessibilité",
-        img: siteFisheye,
+        img: "https://i.postimg.cc/Y0mT6hYP/Site-Fisheye.png",
         link: "https://github.com/DamienBELGHIT/Fisheye",
       },
       {
         title: "Kasa",
         description: "Site AirBnB en React",
-        img: "./src/assets/img/SiteKasa.PNG",
+        img: "https://i.postimg.cc/kD3zfqyg/SiteKasa.png",
         link: "https://damienbelghit.github.io/kasa",
       },
       {
         title: "DataTable",
         description:
           "Librairie React permettant d'insérer des tableaux de données intéractifs",
-        img: siteDataTable,
+        img: "https://i.postimg.cc/CKhy3MpZ/Site-Data-Table.png",
         link: "https://www.npmjs.com/package/react-interactive-datatable?activeTab=explore",
       },
       {
         title: "ohmyfood",
         description: "Site de menu de restauration en Sass",
-        img: siteOhMyFood,
+        img: "https://i.postimg.cc/RCkZjtsN/Site-Oh-My-Food.png",
         link: "https://damienbelghit.github.io/ohmyfood/",
       },
     ],
@@ -118,23 +93,39 @@ const medias = [
     medias: [
       {
         title: "Vectoriel",
-        img: vectorialThumbnail,
-        list: [vectorial1, vectorial2, vectorial3, vectorial4, vectorial5],
+        img: "https://i.postimg.cc/PxBdnGMB/Vectorial-Thumbnail.png",
+        list: [
+          "https://i.postimg.cc/gJ7fLvXR/Reinald.png",
+          "https://i.postimg.cc/jSXqwFs7/Sloth.png",
+          "https://i.postimg.cc/kgF3Y6z3/Chibi.png",
+          "https://i.postimg.cc/gJwG7c3V/Tete-Dessin.png",
+          "https://i.postimg.cc/0Nykp0QH/Sui.png",
+        ],
       },
       {
         title: "Tablette",
-        img: tablette1,
-        list: [tablette1, tablette2],
+        img: "https://i.postimg.cc/sX0RPk8M/CutHair.png",
+        list: [
+          "https://i.postimg.cc/sX0RPk8M/CutHair.png",
+          "https://i.postimg.cc/zBvsfdB8/Holga.png",
+        ],
       },
       {
         title: "3D",
-        img: blender1,
-        list: [blender1, blender2],
+        img: "https://i.postimg.cc/8cJgZyQt/Bottaro.png",
+        list: [
+          "https://i.postimg.cc/8cJgZyQt/Bottaro.png",
+          "https://i.postimg.cc/sDWRS0J2/Donut.png",
+        ],
       },
       {
         title: "Pixel Art",
-        img: pixelArtThumbnail,
-        list: [pixelArt1, pixelArt2, pixelArt3],
+        img: "https://i.postimg.cc/jSrYhQ84/Pixel-Art-Thumbnail.png",
+        list: [
+          "https://i.postimg.cc/tgpy9tW4/Artificial.png",
+          "https://i.postimg.cc/JhpwMwRp/Race.png",
+          "https://i.postimg.cc/fyGnpxMZ/Dizzy.png",
+        ],
       },
     ],
   },
