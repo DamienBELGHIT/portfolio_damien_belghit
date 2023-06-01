@@ -1,7 +1,7 @@
 import "./index.css"
 import { useState } from "react"
 import MediaGrid from "../../components/MediaGrid"
-import mediaList from "../../assets/data/medias.js"
+import mediaList from "../../assets/data/medias.jsx"
 
 function Projects() {
   const [projectType, setProjectType] = useState("Sites")

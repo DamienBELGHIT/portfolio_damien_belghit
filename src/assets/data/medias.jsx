@@ -1,3 +1,28 @@
+import sitePortfolio from "../img/SitePortfolio.png"
+import sitePetitsPlats from "../img/SitePetitsPlats.png"
+import siteFisheye from "../img/SiteFisheye.png"
+import siteSportSee from "../img/SiteSportSee.png"
+import siteDataTable from "../img/SiteDataTable.png"
+import siteOhMyFood from "../img/SiteOhMyFood.png"
+
+import tablette1 from "../img/CutHair.png"
+import tablette2 from "../img/Holga.png"
+
+import blender1 from "../img/Bottaro.png"
+import blender2 from "../img/Donut.png"
+
+import vectorialThumbnail from "../img/VectorialThumbnail.png"
+import vectorial1 from "../img/Sui.png"
+import vectorial2 from "../img/Sloth.jpg"
+import vectorial3 from "../img/TeteDessin.png"
+import vectorial4 from "../img/Reinald.png"
+import vectorial5 from "../img/Chibi.png"
+
+import pixelArtThumbnail from "../img/PixelArtThumbnail.png"
+import pixelArt1 from "../img/Race.png"
+import pixelArt2 from "../img/Dizzy.png"
+import pixelArt3 from "../img/Artificial.png"
+
 const medias = [
   {
     type: "Sites",
@@ -5,25 +30,25 @@ const medias = [
       {
         title: "Portfolio",
         description: "Mon site portfolio en React",
-        img: "./src/assets/img/SitePortfolio.PNG",
+        img: sitePortfolio,
         link: "https://github.com/DamienBELGHIT/portfolio_damien_belghit",
       },
       {
         title: "Les Petits Plats",
         description: "Site de recherche de recettes en JS pur",
-        img: "./src/assets/img/SitePetitsPlats.PNG",
+        img: sitePetitsPlats,
         link: "https://damienbelghit.github.io/LesPetitsPlats-Projet5/",
       },
       {
         title: "SportSee",
         description: "Tableau analytics sportif en React + Recharts",
-        img: "./src/assets/img/SiteSportSee.PNG",
+        img: siteSportSee,
         link: "https://github.com/DamienBELGHIT/SportSee",
       },
       {
         title: "Fisheye",
         description: "Site de photographes axé accessibilité",
-        img: "./src/assets/img/SiteFisheye.PNG",
+        img: siteFisheye,
         link: "https://github.com/DamienBELGHIT/Fisheye",
       },
       {
@@ -36,13 +61,13 @@ const medias = [
         title: "DataTable",
         description:
           "Librairie React permettant d'insérer des tableaux de données intéractifs",
-        img: "./src/assets/img/SiteDataTable.PNG",
+        img: siteDataTable,
         link: "https://www.npmjs.com/package/react-interactive-datatable?activeTab=explore",
       },
       {
         title: "ohmyfood",
         description: "Site de menu de restauration en Sass",
-        img: "./src/assets/img/SiteOhMyFood.PNG",
+        img: siteOhMyFood,
         link: "https://damienbelghit.github.io/ohmyfood/",
       },
     ],
@@ -93,33 +118,23 @@ const medias = [
     medias: [
       {
         title: "Vectoriel",
-        img: "./src/assets/img/VectorialThumbnail.PNG",
-        list: [
-          "./src/assets/img/Sui.png",
-          "./src/assets/img/Sloth.jpg",
-          "./src/assets/img/Chibi.png",
-          "./src/assets/img/TeteDessin.png",
-          "./src/assets/img/Reinald.png",
-        ],
+        img: vectorialThumbnail,
+        list: [vectorial1, vectorial2, vectorial3, vectorial4, vectorial5],
       },
       {
         title: "Tablette",
-        img: "./src/assets/img/CutHair.PNG",
-        list: ["./src/assets/img/CutHair.PNG", "./src/assets/img/Holga.PNG"],
+        img: tablette1,
+        list: [tablette1, tablette2],
       },
       {
         title: "3D",
-        img: "./src/assets/img/Bottaro.png",
-        list: ["./src/assets/img/Bottaro.png", "./src/assets/img/Donut.PNG"],
+        img: blender1,
+        list: [blender1, blender2],
       },
       {
         title: "Pixel Art",
-        img: "./src/assets/img/PixelArtThumbnail.PNG",
-        list: [
-          "./src/assets/img/Race.png",
-          "./src/assets/img/Dizzy.png",
-          "./src/assets/img/Artificial.png",
-        ],
+        img: pixelArtThumbnail,
+        list: [pixelArt1, pixelArt2, pixelArt3],
       },
     ],
   },
