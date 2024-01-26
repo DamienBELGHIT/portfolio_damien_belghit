@@ -57,6 +57,12 @@ const medias = [
         link: "https://store.steampowered.com/app/2098550/Hex_And_Tricks/",
       },
       {
+        title: "Haircut Express",
+        description: "Jeu réalisé en 3 jours pour la Mini Jam Game #18",
+        img: "https://img.itch.zone/aW1nLzEyMzc0NjM4LnBuZw==/315x250%23c/%2BpfYOJ.png",
+        link: "https://poishiche.itch.io/haircut-express",
+      },
+      {
         title: "Wild Fire",
         description: "Jeu réalisé en 3 jours pour la ScoreSpace Jam #22",
         img: "https://img.itch.zone/aW1nLzEwMzU0NjEyLnBuZw==/original/G2o3hQ.png",
@@ -92,22 +98,22 @@ const medias = [
     type: "Illustrations",
     medias: [
       {
-        title: "Vectoriel",
-        img: "https://i.postimg.cc/PxBdnGMB/Vectorial-Thumbnail.png",
+        title: "Painting",
+        img: "https://shorturl.at/ezEKP",
         list: [
-          "https://i.postimg.cc/gJ7fLvXR/Reinald.png",
-          "https://i.postimg.cc/jSXqwFs7/Sloth.png",
-          "https://i.postimg.cc/kgF3Y6z3/Chibi.png",
-          "https://i.postimg.cc/gJwG7c3V/Tete-Dessin.png",
-          "https://i.postimg.cc/0Nykp0QH/Sui.png",
+          "https://shorturl.at/ezEKP",
+          "https://shorturl.at/fFK09",
+          "https://shorturl.at/ekRW8",
         ],
       },
       {
-        title: "Tablette",
-        img: "https://i.postimg.cc/sX0RPk8M/CutHair.png",
+        title: "Line Art",
+        img: "https://shorturl.at/iqtV0",
         list: [
-          "https://i.postimg.cc/sX0RPk8M/CutHair.png",
-          "https://i.postimg.cc/zBvsfdB8/Holga.png",
+          "https://shorturl.at/iqtV0",
+          "https://t.ly/XMIJw",
+          "https://i.postimg.cc/kgF3Y6z3/Chibi.png",
+          "https://t.ly/6eu06",
         ],
       },
       {
@@ -120,10 +126,10 @@ const medias = [
       },
       {
         title: "Pixel Art",
-        img: "https://i.postimg.cc/jSrYhQ84/Pixel-Art-Thumbnail.png",
+        img: "https://i.postimg.cc/JhpwMwRp/Race.png",
         list: [
-          "https://i.postimg.cc/tgpy9tW4/Artificial.png",
           "https://i.postimg.cc/JhpwMwRp/Race.png",
+          "https://i.postimg.cc/tgpy9tW4/Artificial.png",
           "https://i.postimg.cc/fyGnpxMZ/Dizzy.png",
         ],
       },

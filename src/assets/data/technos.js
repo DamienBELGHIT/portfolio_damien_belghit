@@ -106,6 +106,11 @@ const technos = [
         link: "https://www.gimp.org/",
       },
       {
+        name: "Krita",
+        img: "https://upload.wikimedia.org/wikipedia/commons/7/73/Calligrakrita-base.svg",
+        link: "https://krita.org/en/",
+      },
+      {
         name: "Adobe Illustrator",
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/640px-Adobe_Illustrator_CC_icon.svg.png",
         link: "https://www.adobe.com/products/illustrator.html",
@@ -117,7 +122,7 @@ const technos = [
       },
       {
         name: "Aseprite",
-        img: "https://upload.wikimedia.org/wikipedia/en/b/be/Aseprite_logo_128.png",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Logo_Aseprite.svg/1200px-Logo_Aseprite.svg.png",
         link: "https://www.aseprite.org/",
       },
       {
@@ -137,6 +142,12 @@ const technos = [
     type: "Autres",
     technos: [
       {
+        name: "GitHub",
+        img: "https://img.icons8.com/?size=512&id=12599&format=png",
+        link: "https://github.com/DamienBELGHIT/",
+        reverseColor: true,
+      },
+      {
         name: "Construct",
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Construct_3_Logo.svg/600px-Construct_3_Logo.svg.png?20190811071800",
         link: "https://www.construct.net/en",
@@ -148,10 +159,9 @@ const technos = [
         reverseColor: true,
       },
       {
-        name: "GitHub",
-        img: "https://img.icons8.com/?size=512&id=12599&format=png",
-        link: "https://github.com/DamienBELGHIT/",
-        reverseColor: true,
+        name: "Godot",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Godot_icon.svg/1200px-Godot_icon.svg.png",
+        link: "https://godotengine.org/",
       },
     ],
   },

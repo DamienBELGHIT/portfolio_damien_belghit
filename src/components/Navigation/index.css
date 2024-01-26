@@ -27,10 +27,15 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  color: #dcc19e;
+  padding: 15px;
 }
 
 .headers .nav-btn:hover {
   font-size: 32px;
+  color: white;
+  border-radius: 50%;
+  padding: 0px;
 }
 
 .headers .bg-sphere {
@@ -41,7 +46,7 @@
   background-color: #5a4e43;
   z-index: -1;
   right: -700px;
-  top: -200px;
+  top: -170px;
   animation: bg-sphere-header-appear 1.5s 0s linear alternate;
   animation-fill-mode: forwards;
 }
@@ -70,8 +75,8 @@
   position: absolute;
   background-color: #5a4e43;
   z-index: -1;
-  left: -100px;
-  top: -120px;
+  left: -90px;
+  top: -90px;
   animation: bg-sphere-home-appear 1.5s 0s linear alternate;
   animation-fill-mode: forwards;
 }
