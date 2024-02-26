@@ -7,7 +7,7 @@ const medias = [
         description:
           "Site officiel d'une association d'éducation populaire en React",
         img: "https://i.postimg.cc/0NKsYW4R/Crapouilles.png",
-        link: "lacrapouillerie.fr",
+        link: "https://lacrapouillerie.fr",
       },
       {
         title: "Portfolio",
