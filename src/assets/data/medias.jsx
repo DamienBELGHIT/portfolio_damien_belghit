@@ -64,7 +64,7 @@ const medias = [
         link: "https://store.steampowered.com/app/2991890/Cauldron_Caution/",
       },
       {
-        title: "Hex & Tricks",
+        title: "Hex and Tricks",
         description: "Jeu de cartes et d'aventure",
         img: "https://cdn.akamai.steamstatic.com/steam/apps/2098550/capsule_616x353.jpg?t=1675762142",
         link: "https://store.steampowered.com/app/2098550/Hex_And_Tricks/",
