@@ -52,12 +52,6 @@ const medias = [
         img: "https://i.postimg.cc/CKhy3MpZ/Site-Data-Table.png",
         link: "https://www.npmjs.com/package/react-interactive-datatable?activeTab=explore",
       },
-      {
-        title: "ohmyfood",
-        description: "Site de menu de restauration en Sass",
-        img: "https://i.postimg.cc/RCkZjtsN/Site-Oh-My-Food.png",
-        link: "https://damienbelghit.github.io/ohmyfood/",
-      },
     ],
   },
   {
