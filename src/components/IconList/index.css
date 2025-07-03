@@ -10,15 +10,16 @@
 
 .icon img {
   width: 64px;
+  transform: scale(1);
   aspect-ratio: 1/1;
   object-fit: contain;
-  filter: grayscale(60%);
+  filter: grayscale(10%);
   transition: width 0.2s ease-in-out;
 }
 
 .icon img:hover {
   filter: grayscale(0%);
-  width: 96px;
+  transform: scale(1.2);
 }
 
 .icon img.reverse-color {

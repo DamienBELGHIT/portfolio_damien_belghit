@@ -14,13 +14,14 @@
 }
 
 .socials-icon svg {
+  transform: scale(1);
   color: grey;
-  transition: font-size 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .socials-icon svg:hover {
   color: white;
-  font-size: 64px;
+  transform: scale(1.2);
 }
 
 .socials .bg-sphere {

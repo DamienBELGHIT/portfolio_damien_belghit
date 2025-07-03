@@ -14,15 +14,16 @@
   cursor: pointer;
   object-fit: cover;
   width: 100%;
+  transform: scale(1);
   aspect-ratio: 4/3;
   position: relative;
   border-radius: 15px;
   box-shadow: 20px 10px 5px rgb(29, 27, 27);
-  transition: width 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .media img:hover {
-  width: 110%;
+  transform: scale(1.1);
 }
 
 .media h3 {
